@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
-    "start": "browser-sync start --server --files='*.html, js/*.js, css/*.css'",
+    "test": "mocha",
+    "bs": "browser-sync start --server --files='*.html, js/*.js, css/*.css'",
     "sass": "node-sass --output-style expanded scss/main.scss css/main.css"
   },
   "repository": {
