@@ -1,3 +1,20 @@
 body {
   background-color: lightgrey;
+
+  div {
+    background-color: white;
+  }
+
+  .user-info {
+    background-color: blue;
+    float: left;
+    width: 25%;
+  }
+
+  .main-info {
+    background-color: blue;
+    display: inline-block;
+    width: 70%;
+  }
+
 }
