@@ -10,4 +10,9 @@
   var octocatResult = $.ajax({ url: "../apis/github/users/octocat.json"});
   console.log(octocatResult);
 
+  // Possible solution without assigning the return data to a variable but instead using an implied promise.
+  /* $.ajax("../apis/github/users/octocat.json").then(function(data){
+    console.log(arguments); */
+  });
+
 })();
