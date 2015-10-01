@@ -12,7 +12,7 @@
 
   // Possible solution without assigning the return data to a variable but instead using an implied promise.
   /* $.ajax("../apis/github/users/octocat.json").then(function(data){
-    console.log(arguments); */
-  });
+    console.log(arguments);
+  }); */
 
 })();
