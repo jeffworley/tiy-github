@@ -94,6 +94,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+// FIXME: Y U NO LIKE DRY SASS!?
+$octicons-font-path: "../../bower_components/octicons/octicons";
+@import '../../bower_components/octicons/octicons/octicons';
 @import 'custom'; // What no underscore? NO! No underscore!
 
 
