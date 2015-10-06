@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     </head>
@@ -29,24 +30,66 @@
           <section id="user-info">
             <img>{{avatar_url}}</img>
             <section>
-              <h1>{{name}}</h1>
-              <h3>{{login}}</h3>
+              <h1 id="name">{{name}}</h1>
+              <h3 id="username">{{login}}</h3>
             </section>
-            <ul>
+            <ul id="user-details">
               <li>{{company}}</li>
               <li>{{location}}</li>
               <li>{{email}}</li>
               <li>{{blog}}</li>
               <li>{{created_at}}</li>
             </ul>
-            <section>
+            <section id="user-account-stats">
               <a>{{folowers_url}}</a>
               <a>{{starred_url}}</a>
               <a>{{follwing_url}}</a>
             </section>
           </section>
           <section id="main-info">
-            <h3>Main Info</h3>
+            <section id="top-nav-bar">
+              <nav id="tab-navs">
+                <a id="contributions"><span class="octicon octicon-diff-added"></span>Contributions</a>
+                <a id="repositories"><span class="octicon octicon-repo"></span>Repositories</a>
+                <a id="public-activity"><span class="octicon octicon-rss"></span>Public Activity</a>
+              </nav>
+              <nav id="right-buttons">
+                <button id="follow">Follow</button>
+                <button id="user-actions">User Actions</button>
+              </nav>
+            </section>
+            <section id="repos">
+              <ul id="repo-list">
+                <li>Repo 1</li>
+                <li>Repo 2</li>
+                <li>Repo 3</li>
+                <li>Repo 4</li>
+              </ul>
+            </section>
+            <section id="footer-nav-bar">
+              <nav id="footer-navs-left">
+                <ul>
+                  <li>2015 GitHub, Inc.</li>
+                  <li><a>Terms</a></li>
+                  <li><a>Privacy</a></li>
+                  <li><a>Security</a></li>
+                  <li><a>Contact</a></li>
+                  <li><a>Help</a></li>
+                </ul>
+              </nav>
+              <a>GitHub Link to Homepage</a>
+              <nav id="footer-navs-right">
+                <ul>
+                  <li><a>Status</a></li>
+                  <li><a>API</a></li>
+                  <li><a>Training</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pricing</a></li>
+                </ul>
+              </nav>
+            </section>
           </section>
         </div>
 

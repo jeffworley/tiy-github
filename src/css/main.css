@@ -116,6 +116,27 @@ body #pagewrap #user-info {
   text-align: center;
 }
 
+body #pagewrap #user-info #name {
+  margin: 0 auto;
+}
+
+body #pagewrap #user-info #username {
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+body #pagewrap #user-info #user-details {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+body #pagewrap #user-info #user-account-stats a {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+}
+
 body #pagewrap #main-info {
   background-color: grey;
   box-sizing: border-box;
@@ -123,6 +144,119 @@ body #pagewrap #main-info {
   float: left;
   width: 74.5%;
   height: 1000px;
+  text-align: center;
+}
+
+body #pagewrap #main-info #top-nav-bar {
+  border-bottom: 2px solid black;
+}
+
+body #pagewrap #main-info #top-nav-bar #tab-navs {
+  display: inline-block;
+  text-align: left;
+  box-sizing: border-box;
+  width: 70%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+body #pagewrap #main-info #top-nav-bar #tab-navs a {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+body #pagewrap #main-info #top-nav-bar #tab-navs a.active {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+body #pagewrap #main-info #top-nav-bar #right-buttons {
+  display: inline-block;
+  text-align: right;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+body #pagewrap #main-info #top-nav-bar #right-buttons #user-actions {
+  display: inline-block;
+}
+
+body #pagewrap #main-info #repos {
+  background-color: lightgrey;
+  height: 90%;
+  box-sizing: border-box;
+}
+
+body #pagewrap #main-info #repos #repo-list {
+  list-style-type: none;
+  text-align: left;
+  background-color: darkgray;
+  box-sizing: border-box;
+  margin: 0.5% auto;
+  padding: 0;
+}
+
+body #pagewrap #main-info #repos #repo-list li {
+  border: 2px solid white;
+  margin: 0 auto;
+  height: 220px;
+}
+
+body #pagewrap #main-info #footer-nav-bar {
+  border-top: 2px solid black;
+}
+
+body #pagewrap #main-info #footer-nav-bar #footer-navs-left {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 40%;
+  padding: 0;
+  margin: 0;
+}
+
+body #pagewrap #main-info #footer-nav-bar #footer-navs-left ul {
+  list-style-type: none;
+}
+
+body #pagewrap #main-info #footer-nav-bar #footer-navs-left ul li {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+}
+
+body #pagewrap #main-info #footer-nav-bar #footer-navs-left ul li a {
+  text-align: center;
+}
+
+body #pagewrap #main-info #footer-nav-bar a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 10%;
+}
+
+body #pagewrap #main-info #footer-nav-bar #footer-navs-right {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 40%;
+  padding: 0;
+  margin: 0;
+}
+
+body #pagewrap #main-info #footer-nav-bar #footer-navs-right ul {
+  list-style-type: none;
+}
+
+body #pagewrap #main-info #footer-nav-bar #footer-navs-right ul li {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+}
+
+body #pagewrap #main-info #footer-nav-bar #footer-navs-right ul li a {
   text-align: center;
 }
 
