@@ -58,38 +58,82 @@
                 <button id="user-actions">User Actions</button>
               </nav>
             </section>
+            <section id="repositories-panel">
+              <form id="search-selected-tab">
+                <input type="text" placeholder="Find a repository...">
+                <input type="submit" value="Search">
+              </form>
+              <nav id="filters">
+                <ul>
+                  <li><a>All</a></li>
+                  <li><a>Sources</a></li>
+                  <li><a>Forks</a></li>
+                  <li><a>Mirrors</a></li>
+                </ul>
+              </nav>
+            </section>
             <section id="repos">
               <ul id="repo-list">
-                <li>Repo 1</li>
-                <li>Repo 2</li>
-                <li>Repo 3</li>
-                <li>Repo 4</li>
+                <li>
+                  <div>
+                    <h3><a>Spoon-Knife</a></h3>
+                    <p>This repo is for demonstration purposes only.</p>
+                    <p class="last-updated">Updated 9 hours ago</p>
+                  </div>
+                  <div class="repo-stats">
+                    <p class="left-side-elem"><a>CSS</a></p>
+                    <p class="left-side-elem"><span class="octicon octicon-star"></span><a>9,838</a></p>
+                    <p class="left-side-elem"><span class="octicon octicon-git-branch"></span><a>70,444</a></p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h3><a>Hello-World</a></h3>
+                    <p>This is your first repo!</p>
+                    <p class="last-updated">Updated 4 days ago</p>
+                  </div>
+                  <div class="repo-stats">
+                    <p class="left-side-elem"><span class="octicon octicon-star"></span><a>1,401</a></p>
+                    <p class="left-side-elem"><span class="octicon octicon-git-branch"></span><a>1,112</a></p>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h3><a>octocat.github.io</a></h3>
+                    <p>Updated 4 hours ago</p>
+                  </div>
+                  <div class="repo-stats">
+                    <p class="left-side-elem"><a>CSS</a></p>
+                    <p class="left-side-elem"><span class="octicon octicon-star"></span><a>10</a></p>
+                    <p class="left-side-elem"><span class="octicon octicon-git-branch"></span><a>17</a></p>
+                  </div>
+                </li>
               </ul>
             </section>
-            <section id="footer-nav-bar">
-              <nav id="footer-navs-left">
-                <ul>
-                  <li>2015 GitHub, Inc.</li>
-                  <li><a>Terms</a></li>
-                  <li><a>Privacy</a></li>
-                  <li><a>Security</a></li>
-                  <li><a>Contact</a></li>
-                  <li><a>Help</a></li>
-                </ul>
-              </nav>
-              <a>GitHub Link to Homepage</a>
-              <nav id="footer-navs-right">
-                <ul>
-                  <li><a>Status</a></li>
-                  <li><a>API</a></li>
-                  <li><a>Training</a></li>
-                  <li><a>Shop</a></li>
-                  <li><a>Blog</a></li>
-                  <li><a>About</a></li>
-                  <li><a>Pricing</a></li>
-                </ul>
-              </nav>
-            </section>
+          </section>
+          <section id="footer-nav-bar">
+            <nav id="footer-navs-left">
+              <ul>
+                <li>2015 GitHub, Inc.</li>
+                <li><a>Terms</a></li>
+                <li><a>Privacy</a></li>
+                <li><a>Security</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Help</a></li>
+              </ul>
+            </nav>
+            <a><span class="mega-octicon octicon-mark-github"></span></a>
+            <nav id="footer-navs-right">
+              <ul>
+                <li><a>Status</a></li>
+                <li><a>API</a></li>
+                <li><a>Training</a></li>
+                <li><a>Shop</a></li>
+                <li><a>Blog</a></li>
+                <li><a>About</a></li>
+                <li><a>Pricing</a></li>
+              </ul>
+            </nav>
           </section>
         </div>
 

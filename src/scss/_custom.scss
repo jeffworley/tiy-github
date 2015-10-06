@@ -18,7 +18,7 @@ body {
     margin-left: auto;
 
     #user-info {
-      background-color: lightgrey;
+      background-color: grey;
       box-sizing: border-box;
       margin-right: 0.5%;
       float: left;
@@ -97,6 +97,36 @@ body {
 
           #user-actions {
             display: inline-block;
+
+          }
+
+        }
+
+      }
+
+      #repositories-panel {
+        border-bottom: 2px solid black;
+
+        #search-selected-tab {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 65%;
+          text-align: left;
+          padding: 0;
+          margin: 0 auto;
+        }
+
+        #filters {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 30%;
+          text-align: right;
+          padding: 0;
+          margin: 0 auto;
+
+          li {
+            list-style-type: none;
+            display: inline-block;
           }
 
         }
@@ -106,7 +136,6 @@ body {
       #repos {
 
         background-color: lightgrey;
-        height: 90%;
         box-sizing: border-box;
 
         #repo-list {
@@ -115,71 +144,48 @@ body {
           background-color: darkgray;
           box-sizing: border-box;
           margin: 0.5% auto;
-          padding: 0;
+          padding-left: 1%;
 
           li {
-            border: 2px solid white;
+            border-bottom: 2px solid white;
             margin: 0 auto;
-            height: 220px;
-          }
 
-        }
-
-      }
-
-      #footer-nav-bar {
-        border-top: 2px solid black;
-
-        #footer-navs-left {
-          display: inline-block;
-          box-sizing: border-box;
-          width: 40%;
-          padding: 0;
-          margin: 0;
-
-          ul {
-            list-style-type: none;
-
-            li {
+            div {
               display: inline-block;
-              text-align: left;
-              margin: 0 auto;
+              padding-top: 1%;
+              width: 65%;
 
-              a {
-                text-align: center;
+              h3 {
+                font-weight: 700;
+              }
+
+              p {
+                font-weight: 400;
+              }
+
+              p.last-updated {
+                font-weight: 300;
               }
 
             }
-          }
 
-        }
-
-        a {
-          display: inline-block;
-          box-sizing: border-box;
-          width: 10%;
-        }
-
-        #footer-navs-right {
-          display: inline-block;
-          box-sizing: border-box;
-          width: 40%;
-          padding: 0;
-          margin: 0;
-
-          ul {
-            list-style-type: none;
-
-            li {
+            div.repo-stats {
               display: inline-block;
-              text-align: left;
-              margin: 0 auto;
+              width: 30%;
+              vertical-align: top;
 
-              a {
-                text-align: center;
+              .left-side-elem {
+                display: inline-block;
+                width: 30%;
+
+                a {
+                  font-weight: 700;
+                }
+
               }
 
             }
+
           }
 
         }
@@ -187,5 +193,69 @@ body {
       }
 
     }
+
+    #footer-nav-bar {
+      border-top: 2px solid black;
+      background-color: lightgrey;
+
+      #footer-navs-left {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 45%;
+        padding: 0;
+        margin: 0;
+
+        ul {
+          list-style-type: none;
+
+          li {
+            display: inline-block;
+            text-align: left;
+            margin: 0 auto;
+
+            a {
+              text-align: center;
+            }
+
+          }
+        }
+
+      }
+
+      a {
+        display: inline-block;
+        box-sizing: border-box;
+        text-align: center;
+        width: 5%;
+      }
+
+      #footer-navs-right {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 45%;
+        padding: 0;
+        margin: 0;
+
+        ul {
+          list-style-type: none;
+
+          li {
+            display: inline-block;
+            text-align: left;
+            margin: 0 auto;
+
+            a {
+              text-align: center;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
   }
+
 }
