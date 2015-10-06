@@ -185,9 +185,35 @@ body #pagewrap #main-info #top-nav-bar #right-buttons #user-actions {
   display: inline-block;
 }
 
+body #pagewrap #main-info #repositories-panel {
+  border-bottom: 2px solid black;
+}
+
+body #pagewrap #main-info #repositories-panel #search-selected-tab {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 65%;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+}
+
+body #pagewrap #main-info #repositories-panel #filters {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  text-align: right;
+  padding: 0;
+  margin: 0 auto;
+}
+
+body #pagewrap #main-info #repositories-panel #filters li {
+  list-style-type: none;
+  display: inline-block;
+}
+
 body #pagewrap #main-info #repos {
   background-color: lightgrey;
-  height: 90%;
   box-sizing: border-box;
 }
 
@@ -201,9 +227,16 @@ body #pagewrap #main-info #repos #repo-list {
 }
 
 body #pagewrap #main-info #repos #repo-list li {
-  border: 2px solid white;
+  border-bottom: 2px solid white;
   margin: 0 auto;
-  height: 220px;
+}
+
+body #pagewrap #main-info #repos #repo-list li h3 {
+  padding-top: 1%;
+}
+
+body #pagewrap #main-info #repos #repo-list li .left-side-elem {
+  display: inline-block;
 }
 
 body #pagewrap #main-info #footer-nav-bar {

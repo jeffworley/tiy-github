@@ -97,6 +97,36 @@ body {
 
           #user-actions {
             display: inline-block;
+
+          }
+
+        }
+
+      }
+
+      #repositories-panel {
+        border-bottom: 2px solid black;
+
+        #search-selected-tab {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 65%;
+          text-align: left;
+          padding: 0;
+          margin: 0 auto;
+        }
+
+        #filters {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 30%;
+          text-align: right;
+          padding: 0;
+          margin: 0 auto;
+
+          li {
+            list-style-type: none;
+            display: inline-block;
           }
 
         }
@@ -106,7 +136,6 @@ body {
       #repos {
 
         background-color: lightgrey;
-        height: 90%;
         box-sizing: border-box;
 
         #repo-list {
@@ -118,9 +147,22 @@ body {
           padding: 0;
 
           li {
-            border: 2px solid white;
+            border-bottom: 2px solid white;
             margin: 0 auto;
-            height: 220px;
+
+            h3 {
+              padding-top: 1%;
+            }
+
+            .repo-stats {
+              display: inline-block;
+
+              .left-side-elem {
+                display: inline-block;
+              }
+
+            }
+
           }
 
         }
