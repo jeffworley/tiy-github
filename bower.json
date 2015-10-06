@@ -1,0 +1,6 @@
+{
+  "name": "tiy-github",
+  "dependencies": {
+    "octicons": "*"
+  }
+}

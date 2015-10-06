@@ -25,6 +25,32 @@ body {
       width: 24.5%;
       height: 600px; //Looks like height will eventually be based on content.
       text-align: center;
+
+      #name {
+        margin: 0 auto;
+      }
+
+      #username {
+        font-weight: 300;
+        margin: 0 auto;
+      }
+
+      #user-details {
+        list-style-type: none;
+        text-align: left;
+        padding: 0;
+      }
+
+      #user-account-stats {
+
+        a {
+          display: inline-block;
+          text-align: center;
+          padding: 0;
+        }
+
+      }
+
     }
 
     #main-info {
@@ -35,6 +61,131 @@ body {
       width: 74.5%;
       height: 1000px; //This too looks like the height will eventually be based on  content.
       text-align: center;
+
+      #top-nav-bar {
+        border-bottom: 2px solid black;
+
+        #tab-navs {
+          display: inline-block;
+          text-align: left;
+          box-sizing: border-box;
+          width: 70%;
+          padding: 0;
+          margin: 0 auto;
+
+          a {
+            display: inline-block;
+            font-weight: 300;
+            font-size: 1em;
+          }
+
+          a.active {
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            border-left: 1px solid black;
+          }
+
+        }
+
+        #right-buttons {
+          display: inline-block;
+          text-align: right;
+          box-sizing: border-box;
+          width: 25%;
+          padding: 0;
+          margin: 0 auto;
+
+          #user-actions {
+            display: inline-block;
+          }
+
+        }
+
+      }
+
+      #repos {
+
+        background-color: lightgrey;
+        height: 90%;
+        box-sizing: border-box;
+
+        #repo-list {
+          list-style-type: none;
+          text-align: left;
+          background-color: darkgray;
+          box-sizing: border-box;
+          margin: 0.5% auto;
+          padding: 0;
+
+          li {
+            border: 2px solid white;
+            margin: 0 auto;
+            height: 220px;
+          }
+
+        }
+
+      }
+
+      #footer-nav-bar {
+        border-top: 2px solid black;
+
+        #footer-navs-left {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 40%;
+          padding: 0;
+          margin: 0;
+
+          ul {
+            list-style-type: none;
+
+            li {
+              display: inline-block;
+              text-align: left;
+              margin: 0 auto;
+
+              a {
+                text-align: center;
+              }
+
+            }
+          }
+
+        }
+
+        a {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 10%;
+        }
+
+        #footer-navs-right {
+          display: inline-block;
+          box-sizing: border-box;
+          width: 40%;
+          padding: 0;
+          margin: 0;
+
+          ul {
+            list-style-type: none;
+
+            li {
+              display: inline-block;
+              text-align: left;
+              margin: 0 auto;
+
+              a {
+                text-align: center;
+              }
+
+            }
+          }
+
+        }
+
+      }
+
     }
   }
 }
