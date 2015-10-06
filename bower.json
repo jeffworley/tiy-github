@@ -2,5 +2,8 @@
   "name": "tiy-github",
   "dependencies": {
     "octicons": "*"
+  },
+  "resolutions": {
+    "jquery": "1.*"
   }
 }
