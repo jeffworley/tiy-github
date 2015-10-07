@@ -1,10 +1,32 @@
 {
   "name": "tiy-github",
   "dependencies": {
-    "octicons": "*",
-    "lodash": "~3.10.1"
+    "jquery": "1.*",
+    "lodash": "~3.10.1",
+    "modernizr": "~3.1.0",
+    "normalize-css": "normalize.css#~3.0.3"
   },
   "resolutions": {
     "jquery": "1.*"
-  }
+  },
+  "version": "0.0.3",
+  "homepage": "https://github.com/jeffworley/tiy-github",
+  "authors": [
+    "jeffworley <sirwhirls@gmail.com>"
+  ],
+  "description": "tiy-github",
+  "main": "index.html",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

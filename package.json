@@ -1,8 +1,8 @@
 {
   "name": "tiy-github",
-  "version": "0.0.2",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.3",
+  "description": "tiy-github",
+  "main": "index.html",
   "scripts": {
     "test": "mocha",
     "bs": "browser-sync start --server --directory --files='src/*.html, src/js/*.js, src/css/*.css'",
